@@ -1,0 +1,111 @@
+.height{
+  height: 100vh;
+
+}
+.ipos
+{
+  position: relative;
+  left: 1.7vw;
+  top: 0vh;
+  visibility: visible;
+}
+.i2pos
+{
+  position: relative;
+  visibility: hidden;
+  top: 0.3vh;
+}
+
+.sb
+{
+
+background: linear-gradient(179.93deg, #12C2E9 0%, #8069EF 51.38%, #8E46E7 100%);
+z-index: 0;
+
+
+}
+
+.sb:hover
+{
+
+background: linear-gradient(179.93deg, #B778ED 0%, #753DE8 100%);
+
+
+}
+.sb:hover .ipos
+{
+  visibility: hidden;
+}
+.sb:hover .i2pos
+{
+    visibility: visible;
+}
+.Apptext
+{
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 2.3rem;;
+}
+.atext
+{
+  font-family: Poppins;
+  font-weight: 300;
+  font-size: 1.4rem;
+
+}
+.atpos
+{
+  top: 2vh;
+
+}
+
+
+.app-card {
+    padding-right: 0px;
+}
+.div-block {
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: flex-end;
+    background-color: #e9f5f5;
+}
+.image-3 {
+    padding-top: 64px;
+    padding-left: 0px;
+}
+.image-4 {
+    margin-left: 0px;
+    float: left;
+}
+.height1
+{
+  height: 275vh;
+}
+.chtext
+{
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 1rem;;
+}
+.cctext
+{
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 0.8rem;
+  opacity: 0.4;
+}
+.r
+{
+  margin-left: 5vw;
+}
+.card-hover
+{
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card-hover:hover
+{
+  box-shadow: 0 16px 24px 0 rgba(0, 0, 0, 0.2), 0 20px 48px 0 rgba(0, 0, 0, 0.19);
+}
